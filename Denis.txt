@@ -1,1 +1,31 @@
-Denis
+1. Create a Repo named My-First-repo
+
+2. Go to this repo in your browser: https://github.com/SimiCode/My-First-PR
+
+3. Fork the repo
+
+4. Clone the repo using git clone https://github.com/SimiCode/My-First-PR
+
+5. Change your directory to the repo using cd My-First-PR
+
+6. list the files in the repo using ls
+
+7. Make sure a file called edison.txt is in the folder
+
+8. create a new file called your name .txt
+
+9. run git status ; the file name should now appear in red
+
+10. run git add (file name); this adds the changes in your file to the git repo.
+
+11. run git status ; the file name should now appear in green
+
+12. tell github your name and email using:
+
+	git config --global user.email "youremail@gmail.com"
+
+	git config --global user.name "Your name" 
+
+11. run git commit -m "my fist commit"; -m adds a commit message. This will tell github that this file is ready to be shared online.
+
+12. Run git push origin master; this will push the files to your online branch called master.
